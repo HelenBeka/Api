@@ -19,6 +19,8 @@ class ItemController extends Controller
             'message' => 'Item created successfully',
             'data' => $item
         ], 201);
+
+        $item2;
     }
 
     public function show(Item $item)
